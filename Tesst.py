@@ -12,7 +12,7 @@ app = Flask(__name__)
 
 @app.route('/', methods=['GET'])
 def test():
-    return "no mames si dio "
+    return "no mames si dio zvbdfbxdfb"
 
 
 @app.route('/hola/<string:name>', methods=['GET'])
